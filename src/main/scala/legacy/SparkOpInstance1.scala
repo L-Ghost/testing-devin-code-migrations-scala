@@ -1,8 +1,8 @@
 package legacy
 import org.apache.spark.sql.SparkSession
-
-import platform.common_classes.{Metadata, RunConfigurations, SparkOp}
 import org.apache.spark.sql.{DataFrame, SparkSession}
+import platform.common_classes.{Metadata, RunConfigurations}
+import legacy.SparkOp
 
 object SparkOpInstance1 extends SparkOp {
   val randomValue: Int = 7345 // Hardcoded random value
