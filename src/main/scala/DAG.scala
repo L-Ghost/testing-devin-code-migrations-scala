@@ -2,12 +2,12 @@ import legacy.SparkOp
 
 object DAG {
   val ops: Set[SparkOp] = Set(
-    legacy.SparkOpInstance1,
-    legacy.SparkOpInstance2,
-    legacy.SparkOpInstance3,
-    legacy.SparkOpInstance4,
-    legacy.SparkOpInstance5,
-    legacy.SparkOpInstance6,
+    legacy.SparkOpInstance1.apply(),
+    legacy.SparkOpInstance2.apply(),
+    legacy.SparkOpInstance3.apply(),
+    legacy.SparkOpInstance4.apply(),
+    legacy.SparkOpInstance5.apply(),
+    legacy.SparkOpInstance6.apply(),
     legacy.SparkOpInstance7.apply(),
     legacy.SparkOpInstance8.apply(),
     legacy.SparkOpInstance9.apply(),
