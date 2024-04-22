@@ -26,3 +26,4 @@ class SparkOpInstance22 extends SparkOp {
     df
   }
 }
+object SparkOpInstance22 extends SparkOpInstance22
