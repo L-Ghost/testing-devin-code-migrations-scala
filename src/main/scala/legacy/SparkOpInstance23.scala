@@ -1,9 +1,5 @@
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
-trait SparkOp {
-  def query(spark: SparkSession): DataFrame
-}
-
 class SparkOpInstance23 extends SparkOp {
   override def query(spark: SparkSession): DataFrame = {
     // For demonstration purposes, we are using hardcoded values.
