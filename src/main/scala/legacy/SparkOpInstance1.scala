@@ -1,7 +1,7 @@
 package legacy
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import platform.common_classes.{Metadata, RunConfigurations}
+import legacy.{Metadata, RunConfigurations}
 import legacy.SparkOp
 
 object SparkOpInstance1 extends SparkOp {
