@@ -26,4 +26,6 @@ class SparkOpInstance22 extends SparkOp {
     df
   }
 }
-object SparkOpInstance22 extends SparkOpInstance22
+object SparkOpInstance22 {
+  def apply(): SparkOp = new SparkOpInstance22()
+}
