@@ -15,5 +15,6 @@ class SparkOpInstance20 extends SparkOp {
 }
 
 object SparkOpInstance20 {
+  val randomValue: Int = new SparkOpInstance20().randomValue
   def apply(): SparkOp = new SparkOpInstance20()
 }
