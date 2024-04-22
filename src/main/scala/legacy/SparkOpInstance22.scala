@@ -1,3 +1,5 @@
+package legacy
+
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 class SparkOpInstance22 extends SparkOp {
