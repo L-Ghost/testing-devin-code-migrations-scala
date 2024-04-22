@@ -15,5 +15,6 @@ class SparkOpInstance19 extends SparkOp {
 }
 
 object SparkOpInstance19 {
+  val name: String = "nu-br/dataset/spark-op-instance-19"
   def apply(): SparkOp = new SparkOpInstance19()
 }
