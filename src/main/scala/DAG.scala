@@ -1,4 +1,4 @@
-import platform.common_classes.SparkOp
+import legacy.SparkOp
 
 object DAG {
   val ops: Set[SparkOp] = Set(
